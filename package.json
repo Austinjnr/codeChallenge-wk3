@@ -1,0 +1,23 @@
+{
+  "name": "codechallenge-wk3",
+  "version": "1.0.0",
+  "description": "Flatdango",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austinjnr/codeChallenge-wk3.git"
+  },
+  "keywords": [
+    "DOM",
+    "Fetch"
+  ],
+  "author": "Austin Obonyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austinjnr/codeChallenge-wk3/issues"
+  },
+  "homepage": "https://github.com/Austinjnr/codeChallenge-wk3#readme"
+}
