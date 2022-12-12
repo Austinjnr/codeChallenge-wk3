@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm test",
     "start": "node index.js",
-    "serve": "light-server -s . -p 3000"
+    "server": "light-server -s . -p 3000 -x http://localhost:3000/films"
   },
   "repository": {
     "type": "git",
