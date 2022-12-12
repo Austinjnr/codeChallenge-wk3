@@ -1,0 +1,26 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    color: rgb(255, 244, 244) !important;
+    font-weight: 500 !important;
+}
+
+
+.img-card{
+    margin: 5px 0px;
+    transition: .1s;
+}
+.img-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+.btn-collection-playing{
+     
+    max-width: 110px;
+    margin:  2em auto;
+}
