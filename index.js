@@ -2,6 +2,7 @@ const movies = "http://localhost:3000/films"
 
 document.addEventListener('DOMContentLoaded', () => {
 
+
     //create movie-1 element
     const createMovie = (poster, title, description, runtime, showtime, available_tickets) => {
 
@@ -29,8 +30,25 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
+
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -69,8 +87,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -109,8 +142,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -149,8 +197,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -189,8 +252,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -229,8 +307,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -269,8 +362,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -309,8 +417,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -349,8 +472,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -389,8 +527,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -429,8 +582,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -469,8 +637,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -509,8 +692,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -549,8 +747,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -589,8 +802,23 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
+        const movieRuntime = document.createElement('ul')
+        movieRuntime.classList.add('list') 
+        movieRuntime.innerText = runtime
+
+        const movieShowtime = document.createElement('ul')
+        movieShowtime.classList.add('ul')
+        movieShowtime.innerText = showtime
+
+        const movieTicketsAvailable = document.createElement('ul')
+        movieTicketsAvailable.classList.add('ul')
+        movieTicketsAvailable.innerText = available_tickets
+
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
+        bodyDiv.appendChild(movieRuntime)
+        bodyDiv.appendChild(movieShowtime)
+        bodyDiv.appendChild(movieTicketsAvailable)
 
         imgDiv.appendChild(movieImg)
 
@@ -601,7 +829,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         return cardDiv
     }
-             
 
     //load movie-1
     const loadMovie = () => {
@@ -611,13 +838,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[0]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-1').appendChild(movieElement)
         })
     }
     loadMovie()
-
+    
     //load movie-2
     const loadMovie2 = () => {
         fetch(movies)
@@ -626,8 +856,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[1]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-2').appendChild(movieElement)
         })
     }
@@ -641,8 +874,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[2]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-3').appendChild(movieElement)
         })
     }
@@ -656,8 +892,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[3]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-4').appendChild(movieElement)
         })
     }
@@ -671,8 +910,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[4]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-5').appendChild(movieElement)
         })
     }
@@ -686,8 +928,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[5]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-6').appendChild(movieElement)
         })
     }
@@ -701,8 +946,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[6]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-7').appendChild(movieElement)
         })
     }
@@ -716,13 +964,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[7]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-8').appendChild(movieElement)
         })
     }
     loadMovie8()
-
 
     //load movie-9
     const loadMovie9 = () => {
@@ -732,9 +982,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[8]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
-                  document.getElementById('movie-8').appendChild(movieElement)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
+                  document.getElementById('movie-9').appendChild(movieElement)
         })
     }
     loadMovie9()
@@ -747,24 +1000,30 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[9]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-10').appendChild(movieElement)
         })
     }
     loadMovie10()
 
-    //load movie-11 
+    //load movie-11
     const loadMovie11 = () => {
         fetch(movies)
         .then((response) => response.json())
         .then((data) => {
-            const movieData = data[12]
+            const movieData = data[10]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
-                  document.getElementById('movie-11').appendChild(movieElement)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
+                  document.getElementById('movie-10').appendChild(movieElement)
         })
     }
     loadMovie11()
@@ -777,8 +1036,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[11]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-12').appendChild(movieElement)
         })
     }
@@ -792,8 +1054,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[12]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-13').appendChild(movieElement)
         })
     }
@@ -807,8 +1072,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[13]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-14').appendChild(movieElement)
         })
     }
@@ -822,11 +1090,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const movieData = data[14]
                   const title = movieData.title
                   const description = movieData.description
-                  const poster =movieData.poster
-                  const movieElement = createMovie(poster, title, description)
+                  const poster = movieData.poster
+                  const runtime= movieData.runtime
+                  const showtime = movieData.showtime
+                  const available_tickets = movieData.tickets_sold
+                  const movieElement = createMovie(poster, title, description, runtime, showtime, available_tickets)
                   document.getElementById('movie-15').appendChild(movieElement)
         })
     }
     loadMovie15()
-
 })
