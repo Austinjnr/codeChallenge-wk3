@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const bodyDiv = document.createElement ('div')
         bodyDiv.classList.add('col-8', 'card-body')
 
+        
+
         const movieImg = document.createElement('img')
         movieImg.classList.add('card-img')
         movieImg.src = poster
@@ -41,8 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const movieTicketsAvailable = document.createElement('ul')
         movieTicketsAvailable.classList.add('ul')
         movieTicketsAvailable.innerText = available_tickets
-
-
+    
 
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
