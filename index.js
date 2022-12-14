@@ -32,21 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
         movieDescription.classList.add('card-text')
         movieDescription.innerText = description
 
-        const movieRuntime = document.createElement('ul')
+         const movieRuntime = document.createElement('ul')
         movieRuntime.classList.add('list') 
-        movieRuntime.innerText = runtime
+        movieRuntime.innerText = `Runtime: ${runtime}`
 
         const movieShowtime = document.createElement('ul')
         movieShowtime.classList.add('ul')
-        movieShowtime.innerText = showtime
+        movieShowtime.innerText = `Showtime: ${showtime}`
 
         const movieTicketsAvailable = document.createElement('ul')
         movieTicketsAvailable.classList.add('ul')
-        movieTicketsAvailable.innerText = available_tickets
+        movieTicketsAvailable.innerText = `Available Tickets: ${available_tickets}`
         
         const buyTicket = document.createElement('button')
         buyTicket.classList.add('button')
-        buyTicket.innerHTML = buyTicket
+        buyTicket.innerHTML = `Buy Ticket`
 
         
 
