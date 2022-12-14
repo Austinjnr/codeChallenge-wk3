@@ -15,10 +15,6 @@ This application was built with the following technologies:
 
 - Bootstrap
 
-## link 
-Below is the link used to deploy the website :
-      
-      http://localhost:3000/films
 
 # Getting Started
 In order for you to use the content on this repo ensure you have the following:
@@ -64,7 +60,9 @@ Running the application is very straight forward. You can use the following step
 
 - Make an API call
 
-     Json-server --watch db.json
+       Json-server --watch db.json
+
+    
 
 # Authors
 This project was contributed to by:
