@@ -61,7 +61,10 @@ Running the application is very straight forward. You can use the following step
 - Run on the browser
 
       npm run server
-      
+
+- Make an API call
+
+     Json-server --watch db.json
 
 # Authors
 This project was contributed to by:
