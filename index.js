@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const buyTicket = document.createElement('button')
         buyTicket.classList.add('button')
         buyTicket.innerHTML = `Buy Ticket`
-
+        
         
 
         bodyDiv.appendChild(movieTitle)
