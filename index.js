@@ -2,7 +2,8 @@ const movies = "http://localhost:3000/films"
 
 document.addEventListener('DOMContentLoaded', () => {
 
-
+    
+    
     //create movie-1 element
     const createMovie = (poster, title, description, runtime, showtime, available_tickets) => {
 
@@ -18,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const bodyDiv = document.createElement ('div')
         bodyDiv.classList.add('col-8', 'card-body')
 
-        
 
         const movieImg = document.createElement('img')
         movieImg.classList.add('card-img')
@@ -43,13 +43,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const movieTicketsAvailable = document.createElement('ul')
         movieTicketsAvailable.classList.add('ul')
         movieTicketsAvailable.innerText = available_tickets
-    
+        
+        const buyTicket = document.createElement('button')
+        buyTicket.classList.add('button')
+        buyTicket.innerHTML = buyTicket
+
+        
 
         bodyDiv.appendChild(movieTitle)
         bodyDiv.appendChild(movieDescription)
         bodyDiv.appendChild(movieRuntime)
         bodyDiv.appendChild(movieShowtime)
         bodyDiv.appendChild(movieTicketsAvailable)
+        bodyDiv.appendChild(buyTicket)
 
         imgDiv.appendChild(movieImg)
 
